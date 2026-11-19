@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 16" width="840" height="16" role="img">
+  <title>Section divider (Dark)</title>
+  <defs>
+    <linearGradient id="sweep-grad-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+    </linearGradient>
+    <style>
+      .sweep-beam {
+        animation: sweep 7s ease-in-out infinite;
+      }
+      @keyframes sweep {
+        0% {
+          transform: translateX(-160px);
+        }
+        50%, 100% {
+          transform: translateX(860px);
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .sweep-beam {
+          animation: none;
+          display: none;
+        }
+      }
+    </style>
+  </defs>
+  <line x1="0" y1="8" x2="840" y2="8" stroke="#21262D" stroke-width="1" />
+  <rect class="sweep-beam" x="0" y="7" width="140" height="2" rx="1" fill="url(#sweep-grad-dark)" />
+</svg>

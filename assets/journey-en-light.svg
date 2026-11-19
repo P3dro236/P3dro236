@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="840" height="220" role="img">
+  <title>Learning Journey — Core in JS and Node.js, Evolving in React, Java Project and Current Focus in Agentic AI (Light)</title>
+  <defs>
+    <linearGradient id="flow-grad-en-light" gradientUnits="userSpaceOnUse" x1="105" y1="78" x2="735" y2="78">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0" />
+      <stop offset="12%" stop-color="#6366F1" stop-opacity="0.9" />
+      <stop offset="88%" stop-color="#6366F1" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0" />
+    </linearGradient>
+    <style>
+      .sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif;
+      }
+      .flow-line {
+        animation: flow 4.5s linear infinite;
+      }
+      .pulse-ring {
+        transform-origin: 735px 78px;
+        animation: pulse-ring 2.6s ease-out infinite;
+      }
+      @keyframes flow {
+        0% {
+          stroke-dashoffset: 90;
+        }
+        100% {
+          stroke-dashoffset: -720;
+        }
+      }
+      @keyframes pulse-ring {
+        0% {
+          transform: scale(0.95);
+          opacity: 0.7;
+        }
+        75%, 100% {
+          transform: scale(1.75);
+          opacity: 0;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .flow-line {
+          animation: none;
+          display: none;
+        }
+        .pulse-ring {
+          animation: none;
+          opacity: 0.35;
+          transform: scale(1.1);
+        }
+      }
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="839" height="219" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+
+  <text x="28" y="34" class="sans" font-size="11" font-weight="600" letter-spacing="1.4" fill="#475569">LEARNING JOURNEY · CONTINUOUS EVOLUTION</text>
+
+  <line x1="105" y1="78" x2="735" y2="78" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round" />
+  <line class="flow-line" x1="105" y1="78" x2="735" y2="78" stroke="url(#flow-grad-en-light)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="90 720" />
+
+  <!-- Node 1: Core Base -->
+  <circle cx="105" cy="78" r="14" fill="#FFFFFF" />
+  <circle cx="105" cy="78" r="10" fill="#4F46E5" />
+  <circle cx="105" cy="78" r="3.5" fill="#FFFFFF" />
+  <text x="105" y="112" text-anchor="middle" class="sans" font-size="10" font-weight="600" letter-spacing="1" fill="#64748B">01 · CORE BASE</text>
+  <text x="105" y="133" text-anchor="middle" class="sans" font-size="15" font-weight="700" fill="#0F172A">JS &amp; Node.js</text>
+  <text x="105" y="151" text-anchor="middle" class="sans" font-size="11.5" fill="#475569">HTML5 · CSS · Web</text>
+  <rect x="45" y="164" width="120" height="5" rx="2.5" fill="#E2E8F0" />
+  <rect x="45" y="164" width="120" height="5" rx="2.5" fill="#4F46E5" />
+  <text x="105" y="187" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#4F46E5">Advanced</text>
+
+  <!-- Node 2: Evolving -->
+  <circle cx="315" cy="78" r="14" fill="#FFFFFF" />
+  <circle cx="315" cy="78" r="10" fill="#F8FAFC" stroke="#4F46E5" stroke-width="2" />
+  <circle cx="315" cy="78" r="3.5" fill="#4F46E5" />
+  <text x="315" y="112" text-anchor="middle" class="sans" font-size="10" font-weight="600" letter-spacing="1" fill="#64748B">02 · EVOLVING</text>
+  <text x="315" y="133" text-anchor="middle" class="sans" font-size="15" font-weight="700" fill="#0F172A">React</text>
+  <text x="315" y="151" text-anchor="middle" class="sans" font-size="11.5" fill="#475569">Modern UI · Hooks</text>
+  <rect x="255" y="164" width="120" height="5" rx="2.5" fill="#E2E8F0" />
+  <rect x="255" y="164" width="78" height="5" rx="2.5" fill="#4F46E5" />
+  <text x="315" y="187" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#475569">Active practice</text>
+
+  <!-- Node 3: Cross-Stack -->
+  <circle cx="525" cy="78" r="14" fill="#FFFFFF" />
+  <circle cx="525" cy="78" r="10" fill="#F8FAFC" stroke="#4F46E5" stroke-width="2" />
+  <circle cx="525" cy="78" r="3.5" fill="#4F46E5" />
+  <text x="525" y="112" text-anchor="middle" class="sans" font-size="10" font-weight="600" letter-spacing="1" fill="#64748B">03 · CROSS-STACK</text>
+  <text x="525" y="133" text-anchor="middle" class="sans" font-size="15" font-weight="700" fill="#0F172A">Java</text>
+  <text x="525" y="151" text-anchor="middle" class="sans" font-size="11.5" fill="#475569">Spring Boot · REST API</text>
+  <rect x="465" y="164" width="120" height="5" rx="2.5" fill="#E2E8F0" />
+  <rect x="465" y="164" width="54" height="5" rx="2.5" fill="#4F46E5" />
+  <text x="525" y="187" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#475569">Applied project</text>
+
+  <!-- Node 4: Current Focus -->
+  <circle cx="735" cy="78" r="14" fill="#FFFFFF" />
+  <circle class="pulse-ring" cx="735" cy="78" r="13" fill="none" stroke="#4F46E5" stroke-width="2" />
+  <circle cx="735" cy="78" r="10" fill="#4F46E5" />
+  <circle cx="735" cy="78" r="3.5" fill="#FFFFFF" />
+  <text x="735" y="112" text-anchor="middle" class="sans" font-size="10" font-weight="600" letter-spacing="1" fill="#4F46E5">04 · CURRENT FOCUS</text>
+  <text x="735" y="133" text-anchor="middle" class="sans" font-size="15" font-weight="700" fill="#0F172A">Agentic AI</text>
+  <text x="735" y="151" text-anchor="middle" class="sans" font-size="11.5" fill="#475569">Agents · Tool Use</text>
+  <rect x="667" y="164" width="136" height="24" rx="12" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1" />
+  <text x="735" y="180" text-anchor="middle" class="sans" font-size="10.5" font-weight="600" fill="#4338CA">● Studying now</text>
+</svg>
