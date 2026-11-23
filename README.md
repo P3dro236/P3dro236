@@ -90,13 +90,19 @@
       <p><a href="https://github.com/Ovini8894/AstroLab">Ver repositório →</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/P3dro236/simpleCRUD">simpleCRUD</a></h3>
-      <!-- <p><img src="./assets/previews/simplecrud.gif" alt="Preview do simpleCRUD" width="100%" /></p> -->
-      <p>API REST simples em <strong>Java</strong> com Spring Boot para cadastrar, listar, atualizar e remover usuários, persistindo os dados no PostgreSQL.</p>
-      <p><strong>Aprendizado:</strong> arquitetura em camadas (controller, service, repository), Spring Data JPA e primeiros passos no ecossistema Java.</p>
-      <p><code>Java</code> <code>Spring Boot</code> <code>JPA</code> <code>PostgreSQL</code></p>
-      <p><a href="https://github.com/P3dro236/simpleCRUD">Ver repositório →</a></p>
-    </td>
+          <h3><a href="https://github.com/P3dro236/MG300-RE">MG300-RE</a></h3>
+          <!-- <p><img src="./assets/previews/mg300-re.gif" alt="Preview do MG300-RE" width="100%"
+          /></p> -->
+          <p>Engenharia reversa estática da pedaleira <strong>NUX MG-300</strong> original (firmware
+          V4.02.23) e estudo de viabilidade em tempo real para rodar o <strong>NAM A2-Lite</strong>
+          (Neural Amp Modeler) nativamente no NXP <code>MIMXRT106x</code> @ 600 MHz.</p>
+          <p><strong>Aprendizado:</strong> análise forense de DFU, desmontagem ARM Cortex-M7/M3 e
+          DSP TI <code>TMS320C672x</code>, protocolo USB-MIDI/UAC 2.0 e orçamento de DSP em tempo
+          real.</p>
+          <p><code>Reverse Engineering</code> <code>ARM Cortex-M7</code> <code>Ghidra</code>
+          <code>Python</code> <code>DSP / NAM</code></p>
+          <p><a href="https://github.com/P3dro236/MG300-RE">Ver repositório →</a></p>
+        </td>
   </tr>
 </table>
 
