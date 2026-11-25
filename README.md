@@ -72,12 +72,12 @@
       <p><a href="https://github.com/P3dro236/ChatBot-Tarefas">Ver repositório →</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/P3dro236/NanoBox">NanoBox</a></h3>
-      <!-- <p><img src="./assets/previews/nanobox.gif" alt="Preview do NanoBox" width="100%" /></p> -->
-      <p>Landing page de uma nuvem pessoal em hardware local (modelo HaaS), feita como projeto acadêmico do curso de ADS da Uniube.</p>
-      <p><strong>Destaques:</strong> Atomic Design, dark mode com glassmorphism, animações de scroll com Framer Motion e FAQ interativo.</p>
-      <p><code>React</code> <code>Vite</code> <code>Tailwind CSS</code> <code>Framer Motion</code></p>
-      <p><a href="https://nano-box.vercel.app">Ver demo</a> · <a href="https://github.com/P3dro236/NanoBox">Ver repositório →</a></p>
+      <h3><a href="https://github.com/P3dro236/MG300-WEBAPP">MG300 Web Controller</a></h3>
+      <!-- <p><img src="./assets/previews/mg300-webapp.gif" alt="Preview do MG300 Web Controller" width="100%" /></p> -->
+      <p>Controlador web full-stack para a pedaleira <strong>NUX MG-300</strong>, conectada via USB ao computador. Permite editar timbres no navegador e controlar pelo celular na mesma rede Wi-Fi, com pareamento por QR Code.</p>
+      <p><strong>Destaques:</strong> editor de 10 blocos e presets, sincronização em tempo real via WebSocket e acesso mobile com aprovação explícita.</p>
+      <p><code>TypeScript</code> <code>React</code> <code>Node.js</code> <code>Fastify</code> <code>USB-MIDI</code></p>
+      <p><a href="https://github.com/P3dro236/MG300-WEBAPP">Ver repositório →</a></p>
     </td>
   </tr>
   <tr>

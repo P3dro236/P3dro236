@@ -72,12 +72,12 @@
       <p><a href="https://github.com/P3dro236/ChatBot-Tarefas">View repository →</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/P3dro236/NanoBox">NanoBox</a></h3>
-      <!-- <p><img src="./assets/previews/nanobox.gif" alt="NanoBox preview" width="100%" /></p> -->
-      <p>Landing page for a personal cloud running on local hardware (HaaS model), built as an academic project for my Systems Analysis and Development degree at Uniube.</p>
-      <p><strong>Highlights:</strong> Atomic Design, glassmorphism dark mode, scroll animations with Framer Motion, and an interactive FAQ.</p>
-      <p><code>React</code> <code>Vite</code> <code>Tailwind CSS</code> <code>Framer Motion</code></p>
-      <p><a href="https://nano-box.vercel.app">Live demo</a> · <a href="https://github.com/P3dro236/NanoBox">View repository →</a></p>
+      <h3><a href="https://github.com/P3dro236/MG300-WEBAPP">MG300 Web Controller</a></h3>
+      <!-- <p><img src="./assets/previews/mg300-webapp.gif" alt="MG300 Web Controller preview" width="100%" /></p> -->
+      <p>Full-stack web controller for the <strong>NUX MG-300</strong> pedalboard, connected to a computer via USB. Edit tones in the browser and control the unit from a phone on the same Wi-Fi network using QR Code pairing.</p>
+      <p><strong>Highlights:</strong> 10-block editor and preset management, real-time WebSocket sync, and mobile access with explicit approval.</p>
+      <p><code>TypeScript</code> <code>React</code> <code>Node.js</code> <code>Fastify</code> <code>USB-MIDI</code></p>
+      <p><a href="https://github.com/P3dro236/MG300-WEBAPP">View repository →</a></p>
     </td>
   </tr>
   <tr>
